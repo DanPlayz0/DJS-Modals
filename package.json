@@ -1,0 +1,32 @@
+{
+  "name": "djs-modals",
+  "version": "1.0.0",
+  "description": "This is a discord.js (raw api) example for the newly released Discord Modals",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanPlayz0/DJS-Modals.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discordjs",
+    "discord",
+    "js",
+    "modals",
+    "discordmodals",
+    "discordmodal"
+  ],
+  "author": "DanPlayz0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanPlayz0/DJS-Modals/issues"
+  },
+  "homepage": "https://github.com/DanPlayz0/DJS-Modals#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  }
+}
