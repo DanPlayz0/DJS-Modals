@@ -9,7 +9,7 @@ client.on('ready', () => console.log(`Logged in as ${client.user.tag} (${client.
 
 client.on('messageCreate', async (message) => {
   if (message.author.bot || !message.content.startsWith(config.prefix) return;
-  const [command, ...args] = message.content.slice(config.prefix.length).split(/ +/);
+  const command = message.content.slice(config.prefix.length).split(/ +/)[0]?.toLowerCase()
 
   console.log(`${message.author.tag} (${message.author.id}) ran command ${command}`);
 
