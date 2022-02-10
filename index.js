@@ -1,5 +1,4 @@
-const Discord = require('discord.js');
-const config = require('./config.js');
+const Discord = require('discord.js'), config = require('./config.js');
 if (!config) throw Error('Config file not found!');
 
 const client = new Discord.Client({
@@ -9,11 +8,8 @@ const client = new Discord.Client({
 client.on('ready', () => console.log(`Logged in as ${client.user.tag} (${client.user.id})`));
 
 client.on('messageCreate', async (message) => {
-  if (message.author.bot) return;
-  if (!message.content.startsWith(config.prefix)) return;
-
-  const args = message.content.slice(config.prefix.length).split(/ +/);
-  const command = args.shift().toLowerCase();
+  if (message.author.bot || !message.content.startsWith(config.prefix) return;
+  const [command, ...args] = message.content.slice(config.prefix.length).split(/ +/);
 
   console.log(`${message.author.tag} (${message.author.id}) ran command ${command}`);
 
