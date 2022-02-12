@@ -8,7 +8,7 @@ const client = new Discord.Client({
 client.on('ready', () => console.log(`Logged in as ${client.user.tag} (${client.user.id})`));
 
 client.on('messageCreate', async (message) => {
-  if (message.author.bot || !message.content.startsWith(config.prefix) return;
+  if (message.author.bot || !message.content.startsWith(config.prefix)) return;
   const command = message.content.slice(config.prefix.length).split(/ +/)[0]?.toLowerCase()
 
   console.log(`${message.author.tag} (${message.author.id}) ran command ${command}`);
