@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/DanPlayz0/DJS-Modals#readme",
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "discord.js": "13.6.0"
   }
 }
