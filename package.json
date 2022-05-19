@@ -1,7 +1,7 @@
 {
   "name": "djs-modals",
   "version": "1.0.0",
-  "description": "This is a discord.js (raw api) example for the newly released Discord Modals",
+  "description": "This is a discord.js example for Discord's Modals",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/DanPlayz0/DJS-Modals#readme",
   "dependencies": {
-    "discord.js": "13.6.0"
+    "discord.js": "13.7.0"
   }
 }
