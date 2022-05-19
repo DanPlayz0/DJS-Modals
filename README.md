@@ -4,7 +4,7 @@ This is a discord.js (raw api) example for the newly released Discord Modals
 
 ## Installation
 
-1. Clone the repository (`git clone https://github.com/DanPlayz0/DJS-Modals.git`)
+1. Clone the repository (`git clone https://github.com/DanPlayz0/DJS-Modals.git --branch raw`)
 2. Install the dependencies (`npm install`)
 3. Fill in the `config.js` file with your bot token and prefix.
 4. Run the bot (`npm start`)
